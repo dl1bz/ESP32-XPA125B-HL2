@@ -272,7 +272,7 @@ xTaskCreatePinnedToCore(
 // main program loop
 void loop() {
 // here we do nothing, because we use two other tasks
-delay(10); // wait 100ms
+delay(10); // wait 10ms
 }
 
 // Task 1 Voltage loop at Core 1
