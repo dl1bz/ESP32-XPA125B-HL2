@@ -11,7 +11,7 @@ As goodie I use the 1.14" Colordisplay of the T-Display for showing frequency an
 ![](https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/Prototypeboard_ESP32_HL2.jpg)
 
 ## Source code
-The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is written with the Arduino IDE and the ESP32 extensions. Look around, how need the Arduino IDE to setup for use with ESP32.
+The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is written with the Arduino IDE and the ESP32 extensions. Look around, how need the Arduino IDE to setup for use with ESP32. Additional we need the Library for the TFT-display, you can find here https://github.com/Xinyuan-LilyGO/TTGO-T-Display/tree/master/TFT_eSPI (required for compilation).
 
 ## Good to know
 As a special feature I use multitasking with the ESP32. One task (band voltage) runs at core 1 and the second task (PTT switch) runs at core 0, so both tasks work independent.
