@@ -1,5 +1,10 @@
 ---
 # XPA125B band voltage and PTT with Hermes Lite 2
+
+## Preamble
+The goal was to build a very simple, cost-effective interface for automatic bandswitching and isolated PTT switch of my XPA125B. SMD is not for everyone, so I want to use "classic components" for this.
+The scope should be as low as possible and with only small and simple modifications of HL2 itself. 
+
 For automatic switch the band filter in XPA125B we need an analogue voltage for the PA depend from the selected band we want to use.
 For this solution I use an ESP32 (TTGO LILYGO T-DisplayV1.1). I get via the internal UART at DB1 connector of HL2 (3.3V TTL, 9600,8,N,1) the current frequency of HL2.
 
