@@ -1,5 +1,5 @@
 ---
-# XPA125B band voltage and PTT from Hermes Lite 2
+# XPA125B band voltage and PTT with Hermes Lite 2
 For automatic switch the band filter in XPA125B we need an analogue voltage for the PA depend from the selected band we want to use.
 For this solution I use an ESP32 (TTGO LILYGO T-DisplayV1.1). I get via the internal UART at DB1 connector of HL2 (3.3V TTL, 9600,8,N,1) the current frequency of HL2.
 
