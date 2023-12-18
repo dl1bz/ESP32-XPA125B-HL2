@@ -23,6 +23,7 @@ As power supply I use a 5V regulator with a 7805, so the interface board can be 
 
 ## Source code
 I'm not a professional programmer, it's only a hobby for me. The code is not perfect and can be surely optimized. If you think so, do it by yourself.
+
 The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is written with the Arduino IDE and the ESP32 extensions. Look around, how need the Arduino IDE to setup for use with ESP32. Additional we need the Library for the TFT-display, you can find here https://github.com/Xinyuan-LilyGO/TTGO-T-Display/tree/master/TFT_eSPI (required for compilation).
 
 ## Good to know
