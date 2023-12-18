@@ -9,3 +9,6 @@ Every time you change the frequency, the HL2 sends a string in format "FA0002850
 
 As goodie I use the 1.14" Colordisplay of the T-Display for showing frequency and band.
 ![](https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/Prototypeboard_ESP32_HL2.jpg)
+
+## Source code
+The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is written with the Arduino IDE and the ESP32 extensions. Look around, how it needs the Arduino IDE to setup for use with ESP32. 
