@@ -18,8 +18,10 @@ The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is
 
 ## Good to know
 As a special feature I use multitasking with the ESP32. One task (band voltage) runs at core 1 and the second task (PTT switch) runs at core 0, so both tasks work independent.
+You can use this interface with the Micro PA50 too, if you want to use the PA50 in manual mode with PTT switch and not in automatic mode with RF-VOX. With PTT switch the automatic band select of PA50 don't work !
+You need to select in setup of the PA50 "XIEGU" as band voltage protocol. It's the same as for the XPA125B.
 
-## Final words for note ##
+##  Final words for note ##
 This program is free software only for personal use; you can redistribute it and/or modify it how you want.
 The codebase is "as is" without any kind of support of me.
 It's NOT for commercial use in any case.
