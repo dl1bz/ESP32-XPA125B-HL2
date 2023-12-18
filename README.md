@@ -11,7 +11,7 @@ As goodie I use the 1.14" Colordisplay of the T-Display for showing frequency an
 ![](https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/Prototypeboard_ESP32_HL2.jpg)
 
 ## Connect the XPA125B
-For a connection with the XPA125B I installed a SUBD-9 socket (rear of HL2). Look at the manual of XPA125B for the pinout of external PA socket (called ACC rear of XPA125B, 6 pole Mini-DIN). The cable between interface and PA I build by myself.
+For a connection with the XPA125B I installed a SUBD-9 socket (rear of HL2). Look at the manual of XPA125B for the pinout of external PA socket (called ACC rear of XPA125B, 6 pole Mini-DIN female). The cables between HL2, interface and PA I build by myself.
 
 ## Source code
 The code https://github.com/dl1bz/ESP32-XPA125B-HL2/blob/main/XPA125B-HL2.ino is written with the Arduino IDE and the ESP32 extensions. Look around, how need the Arduino IDE to setup for use with ESP32. Additional we need the Library for the TFT-display, you can find here https://github.com/Xinyuan-LilyGO/TTGO-T-Display/tree/master/TFT_eSPI (required for compilation).
