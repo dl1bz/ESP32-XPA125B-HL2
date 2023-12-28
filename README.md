@@ -1,5 +1,5 @@
 ---
-# XPA125B band voltage and PTT with Hermes Lite 2
+# XPA125B band voltage and PTT with Hermes-Lite 2
 
 ## Preamble
 The goal was to build a very simple, cost-effective interface for automatic bandswitching and isolated PTT switch of my XPA125B. SMD is not for everyone, so I want to use "classic components" for this.
